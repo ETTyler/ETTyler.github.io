@@ -1,0 +1,562 @@
+/* Basic styling */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face {
+  font-family: "San Francisco2";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: rgb(18, 18, 18);
+}
+
+.devicon-git-plain {
+  max-width: 2em;
+}
+
+.devicon-git-plain path {
+  fill: #4691f6;
+}
+
+body {
+  font-family: "San Francisco";
+  font-weight: 400;
+}
+
+li,
+a {
+  font-family: "San Francisco";
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(230, 241, 255);
+  text-decoration: none;
+}
+
+button {
+  font-family: "San Francisco";
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(112, 251, 147);
+  text-decoration: none;
+}
+
+nav {
+  background: rgb(18, 18, 18);
+  padding: 20px 50px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: rgb(230, 241, 255);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(112, 251, 147);
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+.logo a,
+.toggle a {
+  font-size: 20px;
+  color: rgb(112, 251, 147);
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle {
+  order: 1;
+}
+.item.button {
+  order: 2;
+}
+.item {
+  width: 100%;
+  text-align: center;
+  order: 3;
+  display: none;
+}
+.item.active {
+  display: block;
+}
+.container-1 {
+  display: flex;
+  padding: 10% 1% 40% 6%;
+  flex-direction: column;
+}
+.container-2 {
+  display: flex;
+  padding-left: 6%;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  padding-right: 0;
+  flex-direction: column;
+}
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6% 8%;
+}
+.container-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 6% 2%;
+}
+.container-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 6% 8%;
+}
+.container-6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 6% 8%;
+  font-size: 30;
+}
+.container-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+.small-heading {
+  color: rgb(112, 251, 147);
+  font-size: 15px;
+  padding: 10px 0 2% 0;
+}
+.main-heading {
+  color: white;
+  font-size: 35px;
+  font-family: "San Francisco2";
+}
+.main-heading2 {
+  color: rgb(136, 146, 176);
+  font-size: 35px;
+  font-family: "San Francisco2";
+}
+.sub-heading {
+  color: rgba(112, 251, 147, 1);
+  font-size: 23px;
+}
+.heading-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  padding: 2% 10% 0 0;
+}
+.project-heading {
+  color: rgb(194, 220, 255);
+  font-size: 22px;
+  padding-bottom: 1%;
+}
+.standard-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  padding: 0% 0;
+}
+.contact-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+
+.button a {
+  padding: 12px 25px;
+  border-radius: 3px;
+  color: rgb(112, 251, 147);
+  background-color: transparent;
+  border: solid 1px rgb(112, 251, 147);
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button {
+  font-family: "San Francisco";
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(112, 251, 147);
+  text-decoration: none;
+}
+.button-2 {
+  padding: 10% 0 0 0;
+}
+
+.about-images {
+  flex-basis: auto;
+  align-self: center;
+  height: auto;
+  width: auto;
+  max-width: 340px;
+  max-height: 260px;
+  border-radius: 3%;
+}
+.portfolio-images {
+  flex-basis: auto;
+  align-self: center;
+  height: auto;
+  width: auto;
+  max-width: 340px;
+  max-height: 260px;
+  border-radius: 3%;
+}
+.carousel-css {
+  max-width: 100%;
+}
+hr {
+  display: block;
+  border-radius: 7px 7px 7px 7px;
+  border-top: 5px solid rgb(112, 251, 147);
+  width: 100%;
+}
+.yellow {
+  color: rgba(112, 251, 147, 1);
+}
+
+/* Navbar Toggle */
+.toggle {
+  cursor: pointer;
+}
+.bars {
+  background: rgb(230, 241, 255);
+  display: flex;
+  height: 3px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 25px;
+}
+.bars:before,
+.bars:after {
+  background: rgb(230, 241, 255);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+.bars:before {
+  top: 8px;
+}
+.bars:after {
+  top: -8px;
+}
+
+/* Tablet menu */
+@media all and (min-width: 468px) {
+  .menu {
+    justify-content: center;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .toggle {
+    order: 2;
+  }
+  .button.secondary {
+    border: 0;
+  }
+  .button a {
+    padding: 12px 25px;
+    border-radius: 3px;
+    color: rgb(112, 251, 147);
+    background-color: transparent;
+    border: solid 1px rgb(112, 251, 147);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .button.secondary a {
+    background: transparent;
+  }
+  .button a:hover {
+    text-decoration: none;
+    transition: all 0.25s;
+  }
+  .button:not(.secondary) a:hover {
+    background: #262626;
+    border-color: #005959;
+  }
+  .button.secondary a:hover {
+    color: #ddd;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .item {
+    display: block;
+    width: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .item {
+    order: 1;
+  }
+  .button {
+    order: 2;
+  }
+  .menu li {
+    padding: 9px 25px;
+  }
+  .menu li.button {
+    padding-right: 0;
+  }
+  .button-2 {
+    padding: 6% 0 0 0;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .container-1 {
+    display: flex;
+    padding: 6% 21%;
+    flex-direction: column;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 21% 0;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 0 21% 8%;
+  }
+  .container-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 7% 21% 1%;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 21%;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2% 21%;
+    font-size: 65;
+  }
+  .small-heading {
+    color: rgba(112, 251, 147, 1);
+    font-size: 18px;
+    padding: 0 0 0 0;
+  }
+  .main-heading {
+    font-size: 70px;
+  }
+  .main-heading2 {
+    color: rgba(136, 146, 176, 1);
+    font-size: 70px;
+  }
+  .sub-heading {
+    color: rgba(112, 251, 147, 1);
+    font-size: 32px;
+  }
+  .project-heading {
+    color: rgb(194, 220, 255);
+    font-size: 28px;
+    padding: 0 0 0;
+  }
+  .heading-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    padding: 2% 40% 0 0;
+  }
+  .standard-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    padding: 2% 10% 0 0;
+  }
+  .about-images {
+    flex-basis: auto;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 85%;
+    max-height: 85%;
+    border-radius: 3%;
+  }
+  .portfolio-images {
+    flex-basis: auto;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    border-radius: 3%;
+  }
+}
+
+/* Desktop menu */
+@media all and (min-width: 1650px) {
+  .item {
+    display: block;
+    width: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .item {
+    order: 1;
+  }
+  .button {
+    order: 2;
+  }
+  .menu li {
+    padding: 9px 25px;
+  }
+  .menu li.button {
+    padding-right: 0;
+  }
+  .button-2 {
+    padding: 6% 0 0 0;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .container-1 {
+    display: flex;
+    padding: 6% 21%;
+    flex-direction: column;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 21% 0;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 21% 8%;
+  }
+  .container-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 21% 1%;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 21%;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2% 21%;
+    font-size: 80;
+  }
+  .small-heading {
+    color: rgba(112, 251, 147, 1);
+    font-size: 18px;
+    padding: 0 0 0 0;
+  }
+  .main-heading {
+    font-size: 80px;
+    font-family: "San Francisco";
+  }
+  .main-heading2 {
+    color: rgba(136, 146, 176, 1);
+    font-size: 80px;
+    font-family: "San Francisco";
+  }
+  .sub-heading {
+    color: rgba(112, 251, 147, 1);
+    font-size: 32px;
+    font-family: "San Francisco";
+  }
+  .project-heading {
+    color: rgb(194, 220, 255);
+    font-size: 30px;
+    padding: 0 0 0;
+  }
+  .heading-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 2% 50% 0 0;
+  }
+  .standard-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 2% 10% 0 0;
+  }
+  .about-images {
+    flex-basis: auto;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 3%;
+  }
+  .portfolio-images {
+    flex-basis: auto;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-radius: 3%;
+  }
+}
+
+/* Main */

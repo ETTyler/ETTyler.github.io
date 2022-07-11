@@ -1,0 +1,519 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ethan Tyler</title>
+    <link rel="icon" href="/Images/favicon.svg">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/magnific/magnific-popup.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="\slick-1.8.1\slick\slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="\slick-1.8.1\slick\slick-theme.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="index.html">welcome</a></li>
+        <li class="item"><a href="#about">About</a></li>
+        <li class="item"><a href="#projects">Projects</a></li>
+        <li class="item"><a href="#contact">Contact</a></li>
+        <li class="item button">
+          <a href="myCV.pdf" target="_blank">Resume</a>
+        </li>
+        <li class="toggle"><span class="bars"></span></li>
+      </ul>
+    </nav>
+    <div class="container-1">
+      <p class="small-heading">Hi, my name is</p>
+      <h2 class="main-heading">Ethan Tyler.</h2>
+      <h3 class="main-heading2">
+        I am a Software Engineer with a speciality in Web Development.
+      </h3>
+      <p class="heading-text">
+        I am from Birmingham, UK and studied at Loughborough University. I have 
+        recently just graduated and I am now looking for work based in the UK.
+      </p>
+      <p class="button button-2"><a href="#contact">Contact Me</a></p>
+    </div>
+    <div class="container-2" id="about">
+      <h3 class="sub-heading">About Me</h3>
+    </div>
+    <div class="container-3">
+      <div class="standard-text">
+        <p>
+          I am
+          <script>
+            var birthday = new Date("2000-08-04");
+            var today = new Date();
+            var age = today.getFullYear() - birthday.getFullYear();
+            var month = today.getMonth() - birthday.getMonth();
+            if (
+              month < 0 ||
+              (month === 0 && today.getDate() < birthday.getDate())
+            ) {
+              age--;
+            }
+            document.write(age);
+            // Calculates my age so the page automatically updates
+          </script>
+          years old and studied Computing and Management at Loughborough
+          University. Outside of programming most of my time is spent either watching or playing sports. <br /><br />
+        </p>
+        <p>
+          During my final year of school I was still undecided about my future and hadn't applied to university. 
+          I was unsure about what I wanted to do next and what would be right for me, so once I finished school 
+          I decided to go travelling. <br /><br />
+        </p>
+        <p>
+          My brother was also in a similar situation as he had just graduated from university. 
+          So with minimal plans we headed off to Dubai, New Zealand 
+          and Australia for 3 months from November 2018 - February 2019.
+          <br /><br />
+        </p>
+        <p>
+          The trip gave me the time I needed and whilst surrounded by beautiful views and the 
+          cleanest air in the world in New Zealand I came to the conclusion that I wanted 
+          to pursue a career in computer science. I wrote my personal statement and completed my uni application
+          while in a hostel on an island just off Auckland. <br><br>
+        </p>
+      </div>
+      <div class="carousel about-images">
+        <a href="/Images/About/absail@0.25x.jpg">
+          <img data-lazy="/Images/About/absail@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/absail2@0.25x.jpg">
+          <img data-lazy="/Images/About/absail2@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/arthurs@0.25x.jpg">
+          <img data-lazy="/Images/About/arthurs@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/auckland@0.25x.jpg">
+          <img data-lazy="/Images/About/auckland@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/dubaihote@0.25x.jpg">
+          <img data-lazy="/Images/About/dubaihote@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/glacier@0.25x.jpg">
+          <img data-lazy="/Images/About/glacier@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/group@0.25x.jpg">
+          <img data-lazy="/Images/About/group@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/hobbiton@0.25x.jpg">
+          <img data-lazy="/Images/About/hobbiton@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/icewall@0.25x.jpg">
+          <img data-lazy="/Images/About/icewall@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/kiwi@0.25x.jpg">
+          <img data-lazy="/Images/About/kiwi@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/lake@0.25x.jpg">
+          <img data-lazy="/Images/About/lake@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/melbourne@0.25x.jpg">
+          <img data-lazy="/Images/About/melbourne@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/milford2@0.25x.jpg">
+          <img data-lazy="/Images/About/milford2@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/milford@0.25x.jpg">
+          <img data-lazy="/Images/About/milford@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/nelson@0.25x.jpg">
+          <img data-lazy="/Images/About/nelson@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/queens@0.25x.jpg">
+          <img data-lazy="/Images/About/queens@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/splitrock@0.25x.jpg">
+          <img data-lazy="/Images/About/splitrock@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/waiheke@0.25x.jpg">
+          <img data-lazy="/Images/About/waiheke@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/wanaka@0.25x.jpg">
+          <img data-lazy="/Images/About/wanaka@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/wellington@0.25x.jpg">
+          <img data-lazy="/Images/About/wellington@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/aus@0.25x.jpg">
+          <img data-lazy="/Images/About/aus@0.25x.jpg" class="about-images" />
+        </a>
+        <a href="/Images/About/burj@0.25x.jpg">
+          <img data-lazy="/Images/About/burj@0.25x.jpg" class="about-images" />
+        </a>
+      </div>
+    </div>
+    <div class="container-4" id="projects">
+      <h3 class="sub-heading">Highlighted Project</h3>
+    </div>
+    <div class="container-5">
+      <div class="project-heading">
+        <i class="devicon-react-original colored"></i>
+        <i class="devicon-express-original"></i>
+        <i class="devicon-materialui-plain colored"></i>
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+        <i class="devicon-nodejs-plain colored"></i> <br>
+        <a href="https://github.com/ETTyler/Stock-Portfolio-Frontend" target="_blank">
+          <h2>
+            <i class="devicon-github-original"></i>
+            Stock Portfolio Web App 
+          </h2>
+        </a>
+      </div>
+      <div class="standard-text">
+        <p>
+          This was my final year project for university. I created a stock portfolio tracking web app using 
+          React for the frontend and Express for the backend. It used live market data to display the user's 
+          portfolio and statistics/analytics about their portfolio's performance.
+        </p> <br>
+      </div>
+      <div class="carousel-2 carousel-css">
+        <a href="/Images/Stocks/1.png">
+          <img data-lazy="/Images/Stocks/1.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Stocks/2.png">
+          <img data-lazy="/Images/Stocks/2.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Stocks/3.png">
+          <img data-lazy="/Images/Stocks/3.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Stocks/4.png">
+          <img data-lazy="/Images/Stocks/4.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Stocks/5.png">
+          <img data-lazy="/Images/Stocks/5.png" class="portfolio-images" />
+        </a>
+      </div>
+      <hr>
+      <br>
+      <div class="standard-text">
+        <p>
+          All the projects below are rather outdated and not reflective of my current work but this website is 
+          relatively unchanged from when I first made it so I thought I would just leave them in. The majority of my 
+          work can be found on my GitHub which is linked above.
+        </p> <br>
+      </div>
+       <div class="project-heading">
+        <i class="devicon-html5-plain colored"></i>
+        <i class="devicon-css3-plain colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-php-plain colored"></i>
+        <i class="devicon-mysql-plain-wordmark colored"></i><br>
+        Helpdesk Website
+      </div>
+      <div class="standard-text">
+        <p>
+          This project had the aim to design and create a helpdesk for a university project.
+          The company would use the website to log and process all support inquiries made 
+          through calls to the customer support.
+        </p> <br>
+      </div>
+      <div class="carousel-2 carousel-css">
+        <a href="/Images/Helpdesk/login@0.5x.jpg">
+          <img data-lazy="/Images/Helpdesk/login@0.5x.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/dash@0.5x.jpg">
+          <img data-lazy="/Images/Helpdesk/dash@0.5x.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/calls@0.5x.jpg">
+          <img data-lazy="/Images/Helpdesk/calls@0.5x.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/dash2@0.5x.jpg">
+          <img data-lazy="/Images/Helpdesk/dash2@0.5x.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/dash3@0.5x.jpg">
+          <img data-lazy="/Images/Helpdesk/dash3@0.5x.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/more2.jpg">
+          <img data-lazy="/Images/Helpdesk/more2.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/records@0.5x.jpg">
+          <img data-lazy="/Images/Helpdesk/records@0.5x.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/solvedform2.jpg">
+          <img data-lazy="/Images/Helpdesk/solvedform2.jpg" class="portfolio-images" />
+        </a>
+        <a href="/Images/Helpdesk/update2.jpg">
+          <img data-lazy="/Images/Helpdesk/update2.jpg" class="portfolio-images" />
+        </a>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="project-heading">
+        <i class="devicon-cplusplus-plain colored"></i><br>
+        Calendar & Fitness Tracker
+      </div>
+      <div class="standard-text">
+        <p>
+          The program utilises a grid to function as a personalisable calendar with features 
+          related to health/fitness such as a BMI calculator, a calorie tracker and a calories 
+          burned calculator. It also featured a backend database to store the user's personal information
+          and unique log in details. The weather window functioned as a browser within the program to access
+          local weather news.
+        </p> <br>
+        <p>
+          This was my first ever personal programming project as it was my coursework for A Level 
+          Computer Science, the overall grade for the program and it's documentation 
+          was an A*. 
+        </p> <br>
+      </div>
+      <div class="carousel-2 carousel-css">
+        <a href="/Images/C++ Fitness/main.png">
+          <img data-lazy="/Images/C++ Fitness/main.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/new user.png">
+          <img data-lazy="/Images/C++ Fitness/new user.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/login.png">
+          <img data-lazy="/Images/C++ Fitness/login.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/add.png">
+          <img data-lazy="/Images/C++ Fitness/add.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/edit.png">
+          <img data-lazy="/Images/C++ Fitness/edit.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/BMI.png">
+          <img data-lazy="/Images/C++ Fitness/BMI.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/BMI2.png">
+          <img data-lazy="/Images/C++ Fitness/BMI2.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/calories.png">
+          <img data-lazy="/Images/C++ Fitness/calories.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/calories2.png">
+          <img data-lazy="/Images/C++ Fitness/calories2.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/C++ Fitness/weather.png">
+          <img data-lazy="/Images/C++ Fitness/weather.png" class="portfolio-images" />
+        </a>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="project-heading">
+        <i class="devicon-html5-plain colored"></i>
+        <i class="devicon-css3-plain colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-php-plain colored"></i>
+        <i class="devicon-mysql-plain-wordmark colored"></i><br>
+        Wedding Planner Website      
+      </div>
+      <div class="standard-text">
+        The purpose of the site was to allow a customer to input details of their desired wedding plan and it would show
+        the available options with the overall cost by using SQL statements to query their input. <br><br>
+        This was my first experience with web programming and was completed 
+        as a part of a university module, it was awarded a 1st (84%). The 
+        focus of the project was the functionality of the site rather than the 
+        design, so the majority of my effort went towards ensuring the backend of the site
+        worked effectively and as expected. <br><br>
+      </div>
+      <div class="carousel-2 carousel-css">
+        <a href="/Images/Wedding Site/main@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/main@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/datepicker@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/datepicker@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/1date@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/1date@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/dates@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/dates@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/example data@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/example data@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/multiple@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/multiple@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/withtable@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/withtable@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Wedding Site/nodate@0.75x.png">
+          <img data-lazy="/Images/Wedding Site/nodate@0.75x@0.75x.png" class="portfolio-images" />
+        </a>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="project-heading">
+        <i class="devicon-python-plain colored"></i><br>
+        Library System
+      </div>
+      <div class="standard-text">
+        Library system using a text file as the database for the program with a GUI made with tkinter. 
+        Was my first experience with Python and was the coursework for an
+        Introduction to Programming module, the project was awarded a 1st (78%).<br><br>
+      </div>
+      <div class="carousel-2 carousel-css">
+        <a href="/Images/Library Sytem/1.png">
+          <img data-lazy="/Images/Library Sytem/1.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/2.png">
+          <img data-lazy="/Images/Library Sytem/2.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/3.png">
+          <img data-lazy="/Images/Library Sytem/3.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/4.png">
+          <img data-lazy="/Images/Library Sytem/4.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/5.png">
+          <img data-lazy="/Images/Library Sytem/5.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/6.png">
+          <img data-lazy="/Images/Library Sytem/6.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/7.png">
+          <img data-lazy="/Images/Library Sytem/7.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/8.png">
+          <img data-lazy="/Images/Library Sytem/8.png" class="portfolio-images" />
+        </a>
+        <a href="/Images/Library Sytem/9.png">
+          <img src="/Images/Library Sytem/9.png" class="portfolio-images" />
+        </a>
+      </div>
+      <br>
+      <hr>
+    </div>
+    <div class="container-6">
+      <i class="devicon-html5-plain-wordmark colored"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-php-plain colored"></i>
+      <i class="devicon-python-plain colored"></i>
+      <i class="devicon-cplusplus-plain colored"></i>
+      <i class="devicon-nodejs-plain-wordmark colored"></i>
+      <i class="devicon-jquery-plain-wordmark colored"></i>
+      <i class="devicon-mysql-plain-wordmark colored"></i>
+    </div>
+
+    <div class="container-7" id="contact">
+      <div class="sub-heading">
+        Contact Me
+      </div>
+      <div class="contact-text">
+        <a href="mailto:etyler04@icloud.com">
+        <i class="far fa-envelope"></i>
+        etyler04@icloud.com
+        </a>
+      </div>
+    </div>
+      
+    </div>
+    <script src="magnific/jquery.magnific-popup.js"></script>
+  </body>
+  <script type="text/javascript" src="\slick-1.8.1\slick\slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".carousel").each(function () {
+        var gallery = $(this);
+        gallery
+          .slick({
+            lazyLoad: 'ondemand',
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            arrows: false,
+          })
+          .magnificPopup({
+            type: "image",
+            delegate: "a:not(.slick-cloned)",
+            gallery: {
+              enabled: true,
+            },
+            callbacks: {
+              open: function () {
+                var current = gallery.slick("slickCurrentSlide");
+                console.log(current);
+                gallery.magnificPopup("goTo", current);
+              },
+              beforeClose: function () {
+                gallery.slick("slickGoTo", parseInt(this.index));
+              },
+            },
+          });
+      });
+      $(".carousel-2").each(function () {
+        var gallery = $(this);
+        gallery
+          .slick({
+            infinite: true,
+            dots: true,
+            variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            centerMode: true,
+            arrows: false,
+            lazyLoad: 'ondemand',
+            responsive: [
+              {
+                breakpoint: 768,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+              arrows: false,
+              centerMode: true,
+              slidesToShow: 1
+              }
+            }
+            ]
+          })
+          .magnificPopup({
+            type: "image",
+            delegate: "a:not(.slick-cloned)",
+            gallery: {
+              enabled: true,
+            },
+            callbacks: {
+              open: function () {
+                var current = gallery.slick("slickCurrentSlide");
+                console.log(current);
+                gallery.magnificPopup("goTo", current);
+              },
+              beforeClose: function () {
+                gallery.slick("slickGoTo", parseInt(this.index));
+              },
+            },
+          });
+      });
+    });
+  </script>
+</html>
